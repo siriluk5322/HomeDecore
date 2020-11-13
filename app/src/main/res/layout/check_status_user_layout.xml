@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/box">
+        <TableRow>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="หมายเลขคำสั่งซื้อ : "
+                android:textColor="#313131"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/status_id"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="xxxxxx"
+                android:textColor="#313131"
+                android:textSize="20sp"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="ราคารวม : "
+                android:textColor="#313131"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/status_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxxxxx"
+                android:textColor="#313131"
+                android:textSize="20sp"/>
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="หมายเลขการจัดส่ง : "
+                android:textColor="#313131"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/trackingnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxxxxx"
+                android:textColor="#313131"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="สถานะการจ่ายเงิน : "
+                android:textColor="#313131"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/statuspay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxxxxx"
+                android:textColor="#313131"
+                android:textSize="20sp"/>
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="ชำระเงิน"
+        android:id="@+id/paymentUser"
+        android:textStyle="bold"
+        android:layout_below="@id/box"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#4CAF50"/>
+</RelativeLayout>
